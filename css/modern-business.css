@@ -20,3 +20,11 @@ body {
 .portfolio-item {
   margin-bottom: 30px;
 }
+
+.card-wrapper {
+  padding: 15px;
+}
+
+.team-director {
+  border-radius: 50%;
+}
