@@ -17,6 +17,10 @@ body {
   background-size: cover;
 }
 
+.qmc-title {
+  font-size: large;
+}
+
 .portfolio-item {
   margin-bottom: 30px;
 }
@@ -25,6 +29,54 @@ body {
   padding: 15px;
 }
 
+.card-header,
+.card-body,
+.card-footer {
+  padding: 12px;
+}
+
+.card-body ul {
+  margin: 0;
+  padding-left: 2rem;
+}
+
 .team-director {
   border-radius: 50%;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+.list-alpha {
+  list-style-type: lower-alpha;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.development-activity {
+  margin-bottom: 8px;
+}
+
+.btn-disabled {
+  cursor: default;
+  color: #fff !important;
+}
+
+.btn-primary.btn-disabled:hover,
+.btn-primary.btn-disabled:active, 
+.btn-primary.btn-disabled:focus,
+.btn-primary.btn-disabled:checked {
+  background-color: #007bff !important;
+  border-color: #007bff !important;
+}
+
+.btn-secondary.btn-disabled:hover,
+.btn-secondary.btn-disabled:active,
+.btn-secondary.btn-disabled:focus,
+.btn-secondary.btn-disabled:checked {
+  background-color: #6c757d !important;
+  border-color: #6c757d !important;
 }

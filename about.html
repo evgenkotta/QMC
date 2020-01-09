@@ -8,10 +8,33 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Modern Business - Start Bootstrap Template</title>
+  <title>About - Queens Mount Consulting</title>
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+  
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- PhotoSwipe -->
+  <link rel="stylesheet" href="PhotoSwipe/dist/photoswipe.css"> 
 
   <!-- Custom styles for this template -->
   <link href="css/modern-business.css" rel="stylesheet">
@@ -35,7 +58,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link active" href="about.html">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="services.html">Services</a>
@@ -88,12 +111,13 @@
     </div>
   </nav>
 
+
   <!-- Page Content -->
   <div class="container">
 
     <!-- Page Heading/Breadcrumbs -->
-    <h1 class="mt-4 mb-3">About
-      <small>us</small>
+    <h1 class="mt-4 mb-3">About Us
+      <!-- <small>Subheading</small> -->
     </h1>
 
     <ol class="breadcrumb">
@@ -109,8 +133,12 @@
         <img class="img-fluid rounded mb-4" src="img/about/about-header.jpg" alt="">
       </div>
       <div class="col-lg-6">
-        <h2>About Modern Business</h2>
-        <p>Queens Mount Consulting is a unique project management consulting company with a strong and extensive capabilities.   Since its establishment, QMC has been a part of most major interventions, transformations and infrastructure investments, supporting clients across all sectors of the economy and the public sector. QMC is privately owned with top management as its shareholders and senior people engaging in key roles.  Key components of QMC’s strategy to deliver high quality services and outstanding customer value are:
+        <h2>About Queens Mount Globle</h2>
+        <p>
+          Queens Mount Consulting is a unique project management consulting company with a strong and extensive capabilities.   Since its establishment, QMC has been a part of most major interventions, transformations and infrastructure investments, supporting clients across all sectors of the economy and the public sector. QMC is privately owned with top management as its shareholders and senior people engaging in key roles.
+        </p>
+        <p>
+          Key components of QMC’s strategy to deliver high quality services and outstanding customer value are:
           <ul>
             <li>Highly skilled professionals</li>
             <li>Established partnerships</li>
@@ -120,6 +148,8 @@
             <li>Team spirit</li>
           </ul>
         </p>
+      </div>
+      <div class="col-lg-12">
         <p>We serve the following sectors:
           <ul>
             <li>Transport & Civil Infrastructure</li>
@@ -141,67 +171,21 @@
 
 
     <div class="container">
-      <div class="row justify-content-center">
+      <div class="row center">
           <div class="col-12">
-            <img src="img/feasibility-study-project-management.jpg (4).jpg" class="img-responsive" alt="">
+            <img src="img/about/feasibility-study-project-management.jpg (4).jpg" class="img-fluid" alt="">
           </div>
           <div class="col-12">
-            <img src="img/feasibility-study-project-management.jpg (3).jpg" class="img-responsive" alt="">
+            <img src="img/about/feasibility-study-project-management.jpg (3).jpg" class="img-fluid" alt="">
           </div>
           <div class="col-12">
-            <img src="img/feasibility-study-project-management.jpg (2).jpg" class="img-responsive" alt="">
+            <img src="img/about/feasibility-study-project-management.jpg (2).jpg" class="img-fluid" alt="">
           </div>
           <div class="col-12">
-            <img src="img/feasibility-study-project-management.jpg (1).jpg" class="img-responsive" alt="">
+            <img src="img/about/feasibility-study-project-management.jpg (1).jpg" class="img-fluid" alt="">
           </div>
       </div>
     </div>
-    <!-- /.row -->
-
-    <!-- Team Members -->
-    <!-- <h2>Our Team</h2>
-
-    <div class="row">
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100 text-center">
-          <img class="card-img-top" src="http://placehold.it/750x450" alt="">
-          <div class="card-body">
-            <h4 class="card-title">Team Member</h4>
-            <h6 class="card-subtitle mb-2 text-muted">Position</h6>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#">name@example.com</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100 text-center">
-          <img class="card-img-top" src="http://placehold.it/750x450" alt="">
-          <div class="card-body">
-            <h4 class="card-title">Team Member</h4>
-            <h6 class="card-subtitle mb-2 text-muted">Position</h6>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#">name@example.com</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100 text-center">
-          <img class="card-img-top" src="http://placehold.it/750x450" alt="">
-          <div class="card-body">
-            <h4 class="card-title">Team Member</h4>
-            <h6 class="card-subtitle mb-2 text-muted">Position</h6>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#">name@example.com</a>
-          </div>
-        </div>
-      </div>
-    </div> -->
     <!-- /.row -->
 
     <!-- Our Customers -->
@@ -242,6 +226,9 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- PhotoSwipe Core JS file -->
+  <script src="path/to/photoswipe.min.js"></script> 
 
 </body>
 
